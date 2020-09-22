@@ -13,6 +13,7 @@
 		BC4CC0572519F4B100877471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4CC0552519F4B100877471 /* Main.storyboard */; };
 		BC4CC0592519F4B400877471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4CC0582519F4B400877471 /* Assets.xcassets */; };
 		BC4CC05C2519F4B400877471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4CC05A2519F4B400877471 /* LaunchScreen.storyboard */; };
+		BC4CC065251A3D4100877471 /* SiteListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4CC064251A3D4100877471 /* SiteListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC4CC0582519F4B400877471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC4CC05B2519F4B400877471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC4CC05D2519F4B400877471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4CC064251A3D4100877471 /* SiteListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BC4CC04F2519F4B100877471 /* AppDelegate.swift */,
 				BC4CC0512519F4B100877471 /* SceneDelegate.swift */,
+				BC4CC064251A3D4100877471 /* SiteListController.swift */,
 				BC4CC0532519F4B100877471 /* ViewController.swift */,
 				BC4CC0552519F4B100877471 /* Main.storyboard */,
 				BC4CC0582519F4B400877471 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4CC065251A3D4100877471 /* SiteListController.swift in Sources */,
 				BC4CC0542519F4B100877471 /* ViewController.swift in Sources */,
 				BC4CC0502519F4B100877471 /* AppDelegate.swift in Sources */,
 				BC4CC0522519F4B100877471 /* SceneDelegate.swift in Sources */,
